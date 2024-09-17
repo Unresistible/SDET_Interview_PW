@@ -1,0 +1,18 @@
+{
+  "name": "sdet_interview_pw",
+  "version": "1.0.0",
+  "description": "SDET Interview Technical Assessment: Automate Product and Addon Addition to Cart using Playwright",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.6.2"
+  }
+}

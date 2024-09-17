@@ -1,0 +1,13 @@
+node_modules/
+/test-results/
+/test-results-html/
+/test-results-junit/
+/artifacts/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+.idea
+/screenshots/
+/snapshots/
+.env
+.auth/
