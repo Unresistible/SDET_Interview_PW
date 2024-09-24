@@ -39,7 +39,7 @@ export default defineConfig({
     screenshot: 'only-on-failure',
     trace: 'on-first-retry',
     headless: true,
-    // baseURL: process.env.baseURL,
+    baseURL: `https://store.cpanel.net/`,
     actionTimeout: 15000
   },
   snapshotPathTemplate: `./snapshots/${process.env.BROWSER}/{arg}{ext}`,

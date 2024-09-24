@@ -18,7 +18,7 @@ export default class CPanelLicenses extends BasePage {
   }
   
   async open(): Promise<void> {
-    await this.page.goto(`https://store.cpanel.net/store/cpanel-licenses`);
+    await this.page.goto(`store/cpanel-licenses`);
   }
   
   async verifyHeadingVisible() {
